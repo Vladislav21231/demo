@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "employee-management-service"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:./mydb
+    username: sa
+    password:
